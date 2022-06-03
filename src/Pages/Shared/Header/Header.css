@@ -1,0 +1,17 @@
+.header-bg {
+    height: 32px;
+    background-color: antiquewhite;
+    /* display: block; */
+}
+
+.show {}
+
+@media all and (max-height:768px) {
+    /* .show {
+        display: none;
+    } */
+
+    /* .header-bg {
+        display: none;
+    } */
+}
