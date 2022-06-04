@@ -6,10 +6,11 @@
 
 .show {}
 
-@media all and (max-height:768px) {
-    /* .show {
+@media screen and (max-width:768px) {
+    .show {
         display: none;
-    } */
+        /* clear: both; */
+    }
 
     /* .header-bg {
         display: none;

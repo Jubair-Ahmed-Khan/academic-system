@@ -72,10 +72,10 @@ const Footer = () => {
                             <div className="col-sm-12 col-md-6 col-lg-2 my-2">
                                 <h5 className="text-warning">Follow Us On</h5>
                                 <div className="mt-4">
-                                    <a href="https://www.facebook.com"><i style={iconStyle} className="fab fa-facebook-square me-3"></i></a>
-                                    <a href="https://www.twitter.com"><i style={iconStyle} className="fab fa-twitter-square me-3"></i></a>
-                                    <a href="https://www.youtube.com"><i style={iconStyle} className="fab fa-youtube-square me-3"></i></a>
-                                    <a href="https://www.instagram.com"><i style={iconStyle} className="fab fa-instagram-square me-3"></i></a>
+                                    <a href="https://www.facebook.com"><i style={iconStyle} className="fab fa-facebook-square me-2"></i></a>
+                                    <a href="https://www.twitter.com"><i style={iconStyle} className="fab fa-twitter-square me-2"></i></a>
+                                    <a href="https://www.youtube.com"><i style={iconStyle} className="fab fa-youtube-square me-2"></i></a>
+                                    <a href="https://www.instagram.com"><i style={iconStyle} className="fab fa-instagram-square"></i></a>
                                 </div>
 
                             </div>

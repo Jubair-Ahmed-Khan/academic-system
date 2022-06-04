@@ -4,11 +4,13 @@ import Footer from './Pages/Shared/Footer/Footer';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './Pages/Home/Home/Home';
 import NotFound from './Pages/NotFound/NotFound';
+import Banner from './Pages/Shared/Banner/Banner';
 
 function App() {
   return (
     <div>
       <Header></Header>
+      <Banner></Banner>
       <Router>
         <Switch>
           <Route exact path="/">
