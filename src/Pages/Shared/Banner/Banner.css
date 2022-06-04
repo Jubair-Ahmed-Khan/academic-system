@@ -4,6 +4,10 @@
     align-items: center;
 }
 
+.banner-bg {
+    background-color: azure;
+}
+
 /* .img-pos {
     justify-content: start;
 } */
@@ -11,6 +15,7 @@
 @media screen and (max-width:768px) {
     .banner-position {
         display: block;
+        /* background-color: ; */
 
     }
 
@@ -19,5 +24,9 @@
         align-items: center; */
         text-align: center;
         padding: 10px 0 10px 0;
+    }
+
+    .banner-bg {
+        background-color: bisque;
     }
 }

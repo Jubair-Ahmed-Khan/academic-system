@@ -5,12 +5,14 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './Pages/Home/Home/Home';
 import NotFound from './Pages/NotFound/NotFound';
 import Banner from './Pages/Shared/Banner/Banner';
+import Navbar from './Pages/Shared/Navbar/Navbar';
 
 function App() {
   return (
     <div>
       <Header></Header>
       <Banner></Banner>
+      <Navbar></Navbar>
       <Router>
         <Switch>
           <Route exact path="/">
