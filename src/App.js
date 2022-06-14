@@ -6,29 +6,36 @@ import Home from './Pages/Home/Home/Home';
 import NotFound from './Pages/NotFound/NotFound';
 import Banner from './Pages/Shared/Banner/Banner';
 import Navbar from './Pages/Shared/Navbar/Navbar';
+import Login from './Pages/Login/Login/Login';
 
 function App() {
   return (
-    <div>
+
+    // <div>
+    //   <h2>Hello</h2>
+    // </div>
+    <Router>
+      <Navbar></Navbar>
       <Header></Header>
       <Banner></Banner>
-      <Navbar></Navbar>
-      <Router>
-        <Switch>
-          <Route exact path="/">
-            <Home></Home>
-          </Route>
-          <Route path="/home">
-            <Home></Home>
-          </Route>
-          <Route path="*">
-            <NotFound></NotFound>
-          </Route>
-        </Switch>
-      </Router>
-      <Footer></Footer>
+      <Switch>
+        <Route exact path="/">
+          <Home></Home>
+        </Route>
+        <Route path="/home">
+          <Home></Home>
+        </Route>
+        <Route path="/login">
+          <Login></Login>
+        </Route>
+        <Route path="*">
+          <NotFound></NotFound>
+        </Route>
+      </Switch>
 
-    </div>
+      <Footer></Footer>
+    </Router>
+
   );
 }
 
