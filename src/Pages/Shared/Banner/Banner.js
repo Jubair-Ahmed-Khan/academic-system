@@ -13,8 +13,8 @@ const Banner = () => {
                         <img src={logoSrc} style={{ width: "150px" }} className="img-fluid" alt="mbstu_logo" />
                     </div>
 
-                    <div className="img-pos">
-                        <p className="fs-1 fw-bolder ms-3 text-danger">Mawlana Bhashani Science and Technology University</p>
+                    <div className="img-pos pt-5 ps-2">
+                        <p className="fs-1 fw-bolder ms-3 text-danger">Mawlana Bhashani <br />Science and Technology University</p>
                     </div>
                 </div>
 

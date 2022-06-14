@@ -5,8 +5,8 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './Pages/Home/Home/Home';
 import NotFound from './Pages/NotFound/NotFound';
 import Banner from './Pages/Shared/Banner/Banner';
-import Navbar from './Pages/Shared/Navbar/Navbar';
-import Login from './Pages/Login/Login/Login';
+//import Navbar from './Pages/Shared/Navbar/Navbar';
+import LoginForm from './Pages/Login/LoginForm/LoginForm';
 
 function App() {
   return (
@@ -15,9 +15,10 @@ function App() {
     //   <h2>Hello</h2>
     // </div>
     <Router>
-      <Navbar></Navbar>
+
       <Header></Header>
       <Banner></Banner>
+      {/* <Navbar></Navbar> */}
       <Switch>
         <Route exact path="/">
           <Home></Home>
@@ -26,7 +27,7 @@ function App() {
           <Home></Home>
         </Route>
         <Route path="/login">
-          <Login></Login>
+          <LoginForm></LoginForm>
         </Route>
         <Route path="*">
           <NotFound></NotFound>
